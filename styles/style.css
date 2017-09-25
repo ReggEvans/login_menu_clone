@@ -1,0 +1,136 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: url('https://us.battle.net/login/static/images/login/background/login-background-1920.jpg') top center;
+  font-family: Arial;
+  margin: 0;
+  padding-bottom: 150px;
+  position: relative;
+  min-height: 100%;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+}
+
+input {
+  margin: 15px auto;
+  display: block;
+  width: 320px;
+  padding: 10px;
+  border: 1px solid #666;
+  background-color: rgba(0,0,0,0.5);
+  font-size: 16px;
+  color: #fff;
+}
+
+input:hover {
+  border: 1px solid #999;
+}
+
+input:focus {
+  border: 1px solid #0000e6;
+}
+
+.button-wrap {
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  display: block;
+  width: 320px;
+  border-radius: 1px;
+  border: none;
+  margin: 15px 0;
+  padding: 10px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#blizzard {
+  background-color: #0e86ca;
+}
+
+#blizzard:hover {
+  background-color: #119dee;
+}
+
+#facebook {
+  background-color: #3b5998;
+}
+
+#facebook:hover {
+  background-color: #476bb8;
+}
+
+#left-line {
+  width: 126px;
+  height: 1px;
+  background-color: rgba(102, 102, 102,0.5);
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 20px 0 0;
+}
+
+#right-line {
+  width: 126px;
+  height: 1px;
+  background-color: rgba(102, 102, 102,0.5);
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 20px;
+}
+
+#or {
+  color: #666;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+p {
+  color: #0e86ca;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+p:hover {
+  color: #fff;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin: 20px 0;
+}
+
+#links, #copyright {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  text-align: center;
+  padding: 5px;
+}
+
+a {
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.7);
+}
+
+a:hover {
+  color: #fff;
+}
